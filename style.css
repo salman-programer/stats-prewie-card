@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+img{
+    background-color: var(--color-accent);
+    width: 85%;
+    height: 360px;
+    border-radius: 4px;
+    margin-top: 70px;
+    background-color: hsl(244, 38%, 16%);
+    background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-blend-mode: multiply;
+border-radius: 8px 8px 0 0;
+}
+.left{
+    background-color: hsl(244, 38%, 16%);
+    width: 50%;
+    height: 360px;
+    margin-left: 80px;
+    border-radius: 4px;
+    margin-top: 70px;
+    
+}
+.bit,.center,.end{
+    font-size: 16px;
+    margin-left: 30px;
+}
+.tile{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.503);
+    margin-top: -13px;
+}
+.title{
+    display: flex;
+}
+.bit{
+    margin-top: 30px;
+}
+.end,.center{
+    margin-top: -20px;
+}
+.get,span,.the{
+    margin-top: 40px;
+}
+.pluss{
+    margin-top: 30px;
+}
+.get,.you{
+    margin-left: 50px;
+}
+.bit,.center,.end{
+    color: rgba(255, 255, 255, 0.603);
+}
+
+.tile,.pluss{
+    margin-left: 40px;
+}
+.pluss{
+    color: white;
+}
+.you{
+    display: flex;
+    margin-top: -25px;
+}
+.get,.the,.you{
+    color: white;
+}
+span{
+    color: blueviolet;
+    font-size: 35px;
+}
+.root{
+    display: flex;
+}
